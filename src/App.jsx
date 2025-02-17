@@ -5,32 +5,32 @@ import './App.css'
 import { motion, AnimatePresence } from "framer-motion";
 
 const items = [
-  { src: "/src/assets/image1.jpg", type: "image", caption: "when we live together" },
-  { src: "/src/assets/image2.jpg", type: "image", caption: "when you want to eat" },
-  { src: "/src/assets/image3.jpg", type: "image", caption: "when we start learn together" },
-  { src: "/src/assets/video1.mp4", type: "video", caption: "so happy when u smile" },  // Video
-  { src: "/src/assets/image4.jpg", type: "image", caption: "give some energy" },
-  { src: "/src/assets/image5.jpg", type: "image", caption: "give some light" },
-  { src: "/src/assets/image6.jpg", type: "image", caption: "long drive to get new thing" },
-  { src: "/src/assets/video2.mp4", type: "video", caption: "always make me happy" },  // Video
-  { src: "/src/assets/video3.mp4", type: "video", caption: "laugh with some joke" },  // Video
-  { src: "/src/assets/video4.mp4", type: "video", caption: "when u do something" },  // Video
-  { src: "/src/assets/image7.jpg", type: "image", caption: "travel together" },
-  { src: "/src/assets/image8.jpg", type: "image", caption: "and travel" },
-  { src: "/src/assets/image9.jpg", type: "image", caption: "congrats with me" },
-  { src: "/src/assets/video5.mp4", type: "video", caption: "never bored" },  // Video
-  { src: "/src/assets/video6.mp4", type: "video", caption: "some kiss" },  // Video
-  { src: "/src/assets/video7.mp4", type: "video", caption: "some eat" },  // Video
-  { src: "/src/assets/image10.jpg", type: "image", caption: "some movie" },
-  { src: "/src/assets/image12.jpg", type: "image", caption: "with cat" },
-  { src: "/src/assets/video8.mp4", type: "video", caption: "always shine for me" },  // Video
-  { src: "/src/assets/video9.mp4", type: "video", caption: "new years with u is the best" },  // Video
-  { src: "/src/assets/image13.jpg", type: "image", caption: "take a photo" },
-  { src: "/src/assets/image14.jpg", type: "image", caption: "when u need food" },
-  { src: "/src/assets/image15.jpg", type: "image", caption: "and travel more" },
-  { src: "/src/assets/image16.jpg", type: "image", caption: "and movie more" },
-  { src: "/src/assets/video10.mp4", type: "video", caption: "when we first time eat together" },  // Video
-  { src: "/src/assets/image17.jpg", type: "image", caption: "is the best time in my life" },
+  { src: "/public/assets/image1.jpg", type: "image", caption: "when we live together" },
+  { src: "/public/assets/image2.jpg", type: "image", caption: "when you want to eat" },
+  { src: "/public/assets/image3.jpg", type: "image", caption: "when we start learn together" },
+  { src: "/public/assets/video1.mp4", type: "video", caption: "so happy when u smile" },  // Video
+  { src: "/public/assets/image4.jpg", type: "image", caption: "give some energy" },
+  { src: "/public/assets/image5.jpg", type: "image", caption: "give some light" },
+  { src: "/public/assets/image6.jpg", type: "image", caption: "long drive to get new thing" },
+  { src: "/public/assets/video2.mp4", type: "video", caption: "always make me happy" },  // Video
+  { src: "/public/assets/video3.mp4", type: "video", caption: "laugh with some joke" },  // Video
+  { src: "/public/assets/video4.mp4", type: "video", caption: "when u do something" },  // Video
+  { src: "/public/assets/image7.jpg", type: "image", caption: "travel together" },
+  { src: "/public/assets/image8.jpg", type: "image", caption: "and travel" },
+  { src: "/public/assets/image9.jpg", type: "image", caption: "congrats with me" },
+  { src: "/public/assets/video5.mp4", type: "video", caption: "never bored" },  // Video
+  { src: "/public/assets/video6.mp4", type: "video", caption: "some kiss" },  // Video
+  { src: "/public/assets/video7.mp4", type: "video", caption: "some eat" },  // Video
+  { src: "/public/assets/image10.jpg", type: "image", caption: "some movie" },
+  { src: "/public/assets/image12.jpg", type: "image", caption: "with cat" },
+  { src: "/public/assets/video8.mp4", type: "video", caption: "always shine for me" },  // Video
+  { src: "/public/assets/video9.mp4", type: "video", caption: "new years with u is the best" },  // Video
+  { src: "/public/assets/image13.jpg", type: "image", caption: "take a photo" },
+  { src: "/public/assets/image14.jpg", type: "image", caption: "when u need food" },
+  { src: "/public/assets/image15.jpg", type: "image", caption: "and travel more" },
+  { src: "/public/assets/image16.jpg", type: "image", caption: "and movie more" },
+  { src: "/public/assets/video10.mp4", type: "video", caption: "when we first time eat together" },  // Video
+  { src: "/public/assets/image17.jpg", type: "image", caption: "is the best time in my life" },
   
 ];
 
