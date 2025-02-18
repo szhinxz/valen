@@ -77,7 +77,7 @@ function App() {
         >
           <motion.img
             className="h-24 block-full shadow-lg mx-auto"
-            src="/src/assets/anime.png"
+            src="/src/image/anime.png"
             alt="Anime Avatar"
           />
           <p className="text-lg font-semibold text-white mt-4">มีอะไรอยากจะบอก</p>
@@ -160,7 +160,7 @@ function App() {
 
     {/* Audio Player */}
     {showPlayer && !fadeOut && (
-      <audio ref={ref} src="/src/assets/music.mp4" autoPlay onEnded={handleAudioEnded} />
+      <audio ref={ref} src="/src/image/music.mp4" autoPlay onEnded={handleAudioEnded} />
     )}
 
     {/* ข้อความหลังเพลงจบ */}
